@@ -1,0 +1,13 @@
+Source: wasta-resources-png-uka
+Section: doc
+Priority: extra
+Maintainer: Rik Shaw <rikshaw76@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+
+Package: wasta-resources-png-uka
+Architecture: all
+Depends: wasta-resources, ${shlibs:Depends}, ${misc:Depends}
+Description: wasta-Linux PNG Ukarumpa Resources
+ wasta-Linux PNG Ukarumpa reference materials / documentation / resources.
+ Items installed to /usr/share/wasta-resources.
